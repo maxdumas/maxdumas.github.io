@@ -1,0 +1,3 @@
+[submodule "niarret"]
+	path = niarret
+	url = https://github.com/maxdumas/niarret.git
