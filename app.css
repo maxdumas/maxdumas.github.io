@@ -1,18 +1,37 @@
 body {
 	background-color: #241b2e;
 	font-family: "Tahoma", sans-serif;
-	color: #886688;
+	color: #241b2e;
 }
 
 header {
-	line-height: 10pt;
+	color: #886688;
+	line-height: 24pt;
 	border-bottom: 3px solid #886688;
 }
 
-h1 {
+header h1 {
 	margin: 2.5pt 0;
 	font-family: 'Bitter', serif;
 	font-size: 2em;
+}
+
+header a,
+header a:visited {
+	color: #886688;
+}
+
+header a:hover,
+header a:focus {
+	color: #997799;
+}
+
+main {
+	padding: 10px;
+	box-shadow: 0 0 10px #000;
+	background-color: #b89e95;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
 
 .wrapper {
