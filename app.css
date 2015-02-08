@@ -1,0 +1,31 @@
+body {
+	background-color: #241b2e;
+	font-family: "Tahoma", sans-serif;
+	color: #886688;
+}
+
+header {
+	line-height: 10pt;
+	border-bottom: 3px solid #886688;
+}
+
+h1 {
+	margin: 2.5pt 0;
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+}
+
+.wrapper {
+	width: 410px;
+	height: 70%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header-icons {
+	float: right;
+}
