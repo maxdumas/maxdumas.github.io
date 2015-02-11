@@ -106,6 +106,7 @@ main .highlight {
 #projects ul > li header h3 {
 	color: #ccc;
 	font-size: 0.9em;
+	font-weight: 100;
 	margin: 3pt 0;
 }
 
