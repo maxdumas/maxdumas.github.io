@@ -1,37 +1,15 @@
 body {
 	background-color: #241b2e;
-	font-family: "Tahoma", sans-serif;
+	font-family: Georgia, serif;
+	font-size: 10pt;
 	color: #241b2e;
 }
 
-header {
-	color: #886688;
-	line-height: 24pt;
-	border-bottom: 3px solid #886688;
-}
-
-header h1 {
-	margin: 2.5pt 0;
-	font-family: 'Bitter', serif;
-	font-size: 2em;
-}
-
-header a,
-header a:visited {
-	color: #886688;
-}
-
-header a:hover,
-header a:focus {
-	color: #997799;
-}
-
-main {
-	padding: 10px;
-	box-shadow: 0 0 10px #000;
-	background-color: #b89e95;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
+a,
+a:visited,
+a:focus {
+	text-decoration: none;
+	color: #241b2e;
 }
 
 .wrapper {
@@ -45,6 +23,95 @@ main {
 	left: 0;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: 'Bitter', serif;
+}
+
+header#page-header {
+	color: #886688;
+	line-height: 24pt;
+	border-bottom: 3px solid #886688;
+}
+
+header h1 {
+	margin: 2.5pt 0;
+	font-size: 2.5em;
+}
+
+header a,
+header a:visited {
+	color: #886688;
+}
+
+header a:hover,
+header a:focus {
+	color: #997799;
+}
+
 .header-icons {
 	float: right;
+}
+
+main {
+	padding: 10px;
+	box-shadow: 0 0 10px #000;
+	background-color: #b89e95;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+main header {
+	text-align: center;
+}
+
+main h2 {
+	text-transform: capitalize;
+	font-size: 1.2em;
+	line-height: 0.1em;
+	margin: 16px 0;
+	border-bottom: 3px double #543b4e;
+}
+
+main h2 > span {
+	padding: 6pt;
+	background-color: #b89e95;
+}
+
+main .highlight {
+	font-size: 1.1em;
+}
+
+#projects ul {
+	margin: 0;
+	padding: 0;
+}
+
+#projects ul > li {
+	width: 117px;
+    min-height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #241b2e;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #888;
+}
+
+#projects ul > li header {
+	text-align: center;
+}
+
+#projects ul > li header h3 {
+	color: #ccc;
+	font-size: 0.9em;
+	margin: 3pt 0;
+}
+
+#projects ul > li .content {
+	background-color: #ccc;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 3px;
 }
