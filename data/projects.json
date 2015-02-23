@@ -1,0 +1,10 @@
+{
+	"projects": [
+		{
+			"title": "Howdy Folks!",
+			"image": "img/uap.png",
+			"url": "http://example.com/",
+			"description": "Lorem ipsum dolor sit amet"
+		}
+	]
+}
