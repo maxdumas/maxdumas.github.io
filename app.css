@@ -137,8 +137,8 @@ main .highlight {
 	transition: all 0.5s;
 }
 
-#projects ul > li:hover .content img,
-#projects ul > li:focus .content img {
+#projects ul > li a:hover .content img,
+#projects ul > li a:focus .content img {
 	-webkit-filter: none;
 	filter: none;
 
