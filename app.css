@@ -2,7 +2,7 @@ body {
 	background-color: #241b2e;
 	font-family: Georgia, serif;
 	font-size: 10pt;
-	color: #241b2e;
+	color: #886688;
 }
 
 a,
@@ -53,14 +53,24 @@ header a:focus {
 }
 
 main {
+	margin-bottom: 30px;
+}
+
+main #about {
 	padding: 10px;
 	box-shadow: 0 0 10px #000;
+	color: #241b2e;
 	background-color: #b89e95;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
 
+main .highlight {
+	font-size: 1.1em;
+}
+
 main header {
+	margin: 20px 0;
 	text-align: center;
 }
 
@@ -74,47 +84,49 @@ main h2 {
 
 main h2 > span {
 	padding: 6pt;
-	background-color: #b89e95;
+	background-color: #241b2e;
 }
 
-main .highlight {
-	font-size: 1.1em;
-}
 
 #projects ul {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 #projects ul > li {
-	width: 117px;
+	width: 123px;
     min-height: 32px;
+    color: #241b2e;
+    background-color: #886688;
     display: inline-block;
     vertical-align: top;
-    background-color: #241b2e;
     border-radius: 3px;
     margin: 5px;
     padding: 0;
     box-sizing: border-box;
-    box-shadow: 0 2px 3px #888;
+    /*box-shadow: 0 2px 3px #000;*/
 
     -webkit-animation: fadein 1s;
     animation fadein 1s;
 }
 
+#projects ul > li:hover {
+	-webkit-filter: none;
+}
+
 #projects ul > li header {
-	text-align: center;
+	margin: 0;
 }
 
 #projects ul > li header h3 {
-	color: #ccc;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight: 100;
 	margin: 3pt 0;
 }
 
 #projects ul > li .content {
-	background-color: #ccc;
+	/*background-color: #2b1b2e;*/
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 	padding: 3px;
@@ -123,6 +135,20 @@ main .highlight {
 #projects ul > li .content img {
 	width: 100%;
 	max-height: 100%;
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#projects ul > li:hover .content img,
+#projects ul > li:focus .content img {
+	-webkit-filter: none;
+	filter: none;
+
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 @keyframes fadein {
