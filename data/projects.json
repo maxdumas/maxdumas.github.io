@@ -2,20 +2,20 @@
 	"projects": [
 		{
 			"title": "NYU: Poetic Landscape",
-			"image": "img/uap.png",
-			"url": "/nyu/poetic",
+			"image": "img/poetic.png",
+			"url": "nyu/poetic",
 			"description": "A soothing scene in Unity"
 		},
 		{
 			"title": "NYU: Treasure Game",
-			"image": "img/uap.png",
-			"url": "/nyu/treasure",
+			"image": "img/treasure.png",
+			"url": "nyu/treasure",
 			"description": "Deserts winds in 1918 obscure treasure untold"
 		},
 		{
 			"title": "NYU: Rube Goldberg Machine",
-			"image": "img/uap.png",
-			"url": "/nyu/goldberg",
+			"image": "img/goldberg.png",
+			"url": "nyu/goldberg",
 			"description": "A fantastic contraption for a moonlit night"
 		}
 	]
