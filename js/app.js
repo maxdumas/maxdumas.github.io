@@ -4,15 +4,10 @@
 	var template = Handlebars.compile(source);
 
 	$.get('/data/projects.json', function(data) {
-		var i = 0;
-		var showProject = function() {
-			var project = data.projects[i++];
-			if(!project) return;
-
+		data.projects.forEach(function(project) {
 			var html = template(project);	
 			$('#project-list').append(html);
 			setTimeout(showProject, 200);
-		}
-		showProject();
+		});
 	});
 })();
