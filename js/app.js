@@ -7,7 +7,6 @@
 		data.projects.forEach(function(project) {
 			var html = template(project);	
 			$('#project-list').append(html);
-			setTimeout(showProject, 200);
 		});
 	});
 })();
