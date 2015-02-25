@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"title": "Niarret",
+			"image": "img/niarret.png",
+			"url": "niarret",
+			"description": "Deterministic generator of believable biome and height maps"
+		},
+		{
 			"title": "NYU: Poetic Landscape",
 			"image": "img/poetic.png",
 			"url": "nyu/poetic",
