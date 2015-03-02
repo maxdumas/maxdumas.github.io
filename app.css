@@ -92,6 +92,7 @@ main h2 > span {
 
 main .highlight {
 	font-size: 1.1em;
+	text-align: justify;
 }
 
 #project-list {
