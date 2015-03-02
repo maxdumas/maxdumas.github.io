@@ -2,18 +2,13 @@ body {
 	background-color: #261d30;
 	font-family: Georgia, serif;
 	font-size: 10pt;
-	color: #241b2e;
+	color: #886688;
 }
 
-a,
-a:visited,
-a:focus {
-	text-decoration: none;
-	color: #241b2e;
-}
+
 
 .wrapper {
-	width: 410px;
+	width: 450px;
 	height: 70%;
 	margin: auto;
 	position: absolute;
@@ -23,12 +18,26 @@ a:focus {
 	left: 0;
 }
 
+.main-col {
+	float: left;
+	width: 410px;
+	margin: 0;
+	padding: 0;
+}
+
+.side-col {
+	font-size: 2.5em;
+	float: left;
+	margin-left: 8px;
+	margin-top: 3px;
+	line-height: 1.05em;
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Bitter', serif;
 }
 
 header#page-header {
-	color: #886688;
 	line-height: 24pt;
 	border-bottom: 3px solid #886688;
 }
@@ -38,13 +47,13 @@ header h1 {
 	font-size: 2.5em;
 }
 
-header a,
-header a:visited {
+a,
+a:visited {
 	color: #886688;
 }
 
-header a:hover,
-header a:focus {
+a:hover,
+a:focus {
 	color: #997799;
 }
 
@@ -52,9 +61,12 @@ header a:focus {
 	float: right;
 }
 
+
 main {
+	color: #241b2e;
 	padding: 10px;
 	margin-bottom: 30px;
+	box-sizing: border-box;
 	box-shadow: 0 0 10px #000;
 	background-color: #b89e95;
 	border-bottom-left-radius: 3px;
@@ -107,6 +119,13 @@ main .highlight {
 .project:hover,
 .project:focus {
 	background-color: #744954;
+}
+
+.project a,
+.project a:visited,
+.project a:focus {
+	text-decoration: none;
+	color: #241b2e;
 }
 
 .project header h3 {
