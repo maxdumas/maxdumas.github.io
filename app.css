@@ -130,8 +130,8 @@ main .highlight {
 #projects ul > li .content img {
 	width: 100%;
 	max-height: 100%;
-	/*-webkit-filter: blur(10px);*/
-	/*filter: blur(10px);*/
+	-webkit-filter: none;
+	filter: none;
 
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -139,8 +139,8 @@ main .highlight {
 
 #projects ul > li a:hover .content img,
 #projects ul > li a:focus .content img {
-	-webkit-filter: none;
-	filter: none;
+	-webkit-filter: saturate(200%);
+	filter: saturate(200%);
 
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
