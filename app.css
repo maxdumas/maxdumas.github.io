@@ -81,7 +81,7 @@ main h2 {
 	text-transform: capitalize;
 	font-size: 1.2em;
 	line-height: 0.1em;
-	margin: 16px 0;
+	margin: 17px 0;
 	border-bottom: 3px double #543b4e;
 }
 
@@ -92,6 +92,7 @@ main h2 > span {
 
 main .highlight {
 	font-size: 1.1em;
+	text-align: justify;
 }
 
 #project-list {
