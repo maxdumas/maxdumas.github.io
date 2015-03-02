@@ -13,6 +13,12 @@
 			"description": "Realtime raytracer with reflections, surface distortion, and shadows written in WebGL"
 		},
 		{
+			"title": "NYU ORLHS",
+			"image": "img/orlhs.png",
+			"url": "https://housing.nyu.edu/TechPortfolio",
+			"description": "Professional work at the NYU Office of Residential Life and Housing Services"
+		},
+		{
 			"title": "Tiger 9",
 			"image": "img/tiger-nine.png",
 			"url": "#",
@@ -35,12 +41,6 @@
 			"image": "img/goldberg.png",
 			"url": "nyu/goldberg",
 			"description": "A fantastic contraption for a moonlit night"
-		},
-		{
-			"title": "NYU ORLHS",
-			"image": "img/orlhs.png",
-			"url": "https://housing.nyu.edu/TechPortfolio",
-			"description": "Professional work at the NYU Office of Residential Life and Housing Services"
 		}
 	]
 }
