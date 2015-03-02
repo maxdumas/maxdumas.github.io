@@ -13,6 +13,12 @@
 			"description": "Realtime raytracer with reflections, surface distortion, and shadows written in WebGL"
 		},
 		{
+			"title": "2D Radiosity",
+			"image": "img/radiosity.png",
+			"url": "https://github.com/maxdumas/2d-radiosity",
+			"description": "2D Pre-generated radiosity solution (with a basic viewer) built using SDL"
+		},
+		{
 			"title": "NYU ORLHS",
 			"image": "img/orlhs.png",
 			"url": "https://housing.nyu.edu/TechPortfolio",
