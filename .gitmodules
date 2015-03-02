@@ -1,3 +1,6 @@
 [submodule "niarret"]
 	path = niarret
 	url = https://github.com/maxdumas/niarret.git
+[submodule "raytracer"]
+	path = raytracer
+	url = https://github.com/maxdumas/raytracer-js.git
