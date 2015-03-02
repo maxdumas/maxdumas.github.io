@@ -7,22 +7,40 @@
 			"description": "Deterministic generator of believable biome and height maps"
 		},
 		{
-			"title": "NYU: Poetic Landscape",
+			"title": "Raytracer",
+			"image": "img/raytracer.png",
+			"url": "raytracer",
+			"description": "Realtime raytracer with reflections, surface distortion, and shadows written in WebGL"
+		},
+		{
+			"title": "Tiger 9",
+			"image": "img/tiger-nine.png",
+			"url": "#",
+			"description": "Virtual reality space game (mostly) built in 48 hours for Global Game Jam 2015"
+		},
+		{
+			"title": "Poetic Landscape",
 			"image": "img/poetic.png",
 			"url": "nyu/poetic",
 			"description": "A soothing scene in Unity"
 		},
 		{
-			"title": "NYU: Treasure Game",
+			"title": "Treasure Game",
 			"image": "img/treasure.png",
 			"url": "nyu/treasure",
 			"description": "Deserts winds in 1918 obscure treasure untold"
 		},
 		{
-			"title": "NYU: Rube Goldberg Machine",
+			"title": "Rube Goldberg Machine",
 			"image": "img/goldberg.png",
 			"url": "nyu/goldberg",
 			"description": "A fantastic contraption for a moonlit night"
+		},
+		{
+			"title": "NYU ORLHS",
+			"image": "img/orlhs.png",
+			"url": "https://housing.nyu.edu/TechPortfolio",
+			"description": "Professional work at the NYU Office of Residential Life and Housing Services"
 		}
 	]
 }
