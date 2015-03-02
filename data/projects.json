@@ -15,8 +15,14 @@
 		{
 			"title": "2D Radiosity",
 			"image": "img/radiosity.png",
-			"url": "https://github.com/maxdumas/2d-radiosity",
+			"url": "http://github.com/maxdumas/2d-radiosity",
 			"description": "2D Pre-generated radiosity solution (with a basic viewer) built using SDL"
+		},
+		{
+			"title": "Garfield",
+			"image": "img/garfield.png",
+			"url": "http://github.com/maxdumas/garfield",
+			"description": "Ultra-fast 2D stateful simple graphics library in C++ (with tests)"
 		},
 		{
 			"title": "NYU ORLHS",
@@ -27,7 +33,7 @@
 		{
 			"title": "Tiger 9",
 			"image": "img/tiger-nine.png",
-			"url": "https://github.com/DoomOwl/TigerNine",
+			"url": "http://github.com/DoomOwl/TigerNine",
 			"description": "Virtual reality space game (mostly) built in 48 hours for Global Game Jam 2015"
 		},
 		{
@@ -47,6 +53,12 @@
 			"image": "img/goldberg.png",
 			"url": "nyu/goldberg",
 			"description": "A fantastic contraption for a moonlit night"
+		},
+		{
+			"title": "MaxLib",
+			"image": "img/max-lib.png",
+			"url": "http://github.com/maxdumas/MaxLib",
+			"description": "Very early world generation system with erosion simulation and software shadowcasting"
 		}
 	]
 }
