@@ -4,7 +4,7 @@ html {
 
 body {
 	background-color: #261d30;
-	font-family: Georgia, serif;
+	font-family: Georgia, sans-serif;
 	color: #886688;
 }
 
@@ -70,7 +70,7 @@ main {
 	border-bottom-right-radius: 3px;
 	
 	color: #241b2e;
-	background-color: #b89e95;
+	background-color: #e3d5d0;
 	box-shadow: 0 2px 10px #000;
 }
 
@@ -90,7 +90,7 @@ main h2 {
 main h2 > span {
 	padding: 0 10px;
 
-	background-color: #b89e95;
+	background-color: #e3d5d0;
 }
 
 #about p {
@@ -113,10 +113,9 @@ main h2 > span {
 	min-height: 32px;
 	margin: 4px;
 	padding: 0;
-	border-radius: 3px;
 
 	background-color: #6e444f;
-	box-shadow: 0 2px 3px #888;
+	box-shadow: 0 2px 6px #aaa;
 	
 	-webkit-animation: fadein 1s;
 	animation fadein 1s;
@@ -137,7 +136,7 @@ main h2 > span {
 .project header h3 {
 	margin: 3px;
 	
-	color: #ccc;
+	color: #eee;
 	font-size: 1rem;
 	font-weight: 100;
 }
@@ -145,10 +144,7 @@ main h2 > span {
 .project .content {
 	overflow: hidden;
 	
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-	
-	background-color: #ccc;
+	background-color: #eee;
 }
 
 .project .content p {
