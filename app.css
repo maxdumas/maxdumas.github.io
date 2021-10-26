@@ -102,9 +102,10 @@ main hr {
 }
 
 main h2 {
-	margin: 1.2rem 0;
+	margin: 2rem 0;
 	
-	font-size: 1.2rem;
+	font-family: "Nova Cut", serif;
+	font-size: 2rem;
 	line-height: 0;
 	text-transform: capitalize;
 }
