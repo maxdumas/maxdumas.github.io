@@ -1,26 +1,25 @@
 html {
-	font-size: 13px;	
+	font-size: 13px;
+	--sky-blue: #70D6FF;
+	--salmon: #FF70A6;
+	--grapefruit: #FF9770;
+	--lemon-peel: #E9FF70;
+	--sunshine: #FFFFFF;
 }
 
 body {
-	background-color: #261d30;
-	font-family: 'Noto Serif', Georgia, sans-serif;
-	color: #886688;
+	background-color: var(--sky-blue);
+	font-family: 'Karla', sans-serif;
+	color: var(--sunshine);
 }
 
-h1, h2, h3, h4, h5 {
+body a {
+	color: var(--sunshine);
+}
+
+/* h1, h2, h3, h4, h5 {
 	font-family: "Bitter", serif;
-}
-
-a,
-a:visited {
-	color: #886688;
-}
-
-a:hover,
-a:focus {
-	color: #997799;
-}
+} */
 
 .wrapper {
 	position: absolute;
@@ -42,18 +41,37 @@ a:focus {
 	padding: 0;
 }
 
+.nav-top, .side-col {
+	font-size: 2.5rem;
+}
+
+.nav-top {
+	height: calc(2.5rem + 4px);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.nav-top > * {
+	margin-left: 4px;
+}
+
 .side-col {
 	float: left;
 
 	width: 0;
-	margin: 3px 0 0 8px;
+	margin: 3px 0 0 4px;
 	
-	font-size: 2.5rem;
 	line-height: 2.2rem;
 }
 
-header#page-header {
-	border-bottom: 3px solid #886688;
+header#logo {
+	position: absolute;
+	top: 16;
+	left: 16px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 32px;
+	line-height: 100%;
 }
 
 header h1 {
@@ -69,9 +87,7 @@ main {
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	
-	color: #241b2e;
-	background-color: #e3d5d0;
-	box-shadow: 0 2px 10px #000;
+	background-color: var(--salmon);
 	line-height: 1.25em;
 }
 
@@ -81,17 +97,11 @@ main header {
 
 main h2 {
 	margin: 1.2rem 0;
-	border-bottom: 3px double #543b4e;
+	border-bottom: 4px solid var(--lemon-peel);
 	
 	font-size: 1.2rem;
 	line-height: 0;
 	text-transform: capitalize;
-}
-
-main h2 > span {
-	padding: 0 10px;
-
-	background-color: #e3d5d0;
 }
 
 #about p {
@@ -115,11 +125,10 @@ main h2 > span {
 	margin: 4px;
 	padding: 0;
 
-	background-color: #6e444f;
-	box-shadow: 0 2px 6px #aaa;
+	background-color: var(--grapefruit);
 	
 	-webkit-animation: fadein 1s;
-	animation fadein 1s;
+	animation: fadein 1s;
 }
 
 .project:hover,
@@ -130,22 +139,19 @@ main h2 > span {
 .project a,
 .project a:visited,
 .project a:focus {
-	color: #241b2e;
+	color: var(--sunshine);
 	text-decoration: none;
 }
 
 .project header h3 {
 	margin: 3px;
 	
-	color: #eee;
 	font-size: 1rem;
 	font-weight: 100;
 }
 
 .project .content {
 	overflow: hidden;
-	
-	background-color: #eee;
 }
 
 .project .content p {
