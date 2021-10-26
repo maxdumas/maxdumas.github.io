@@ -95,9 +95,14 @@ main header {
 	text-align: center;
 }
 
+main hr {
+	width: 100px;
+	margin: 0 auto;
+	border: 1px solid var(--lemon-peel);
+}
+
 main h2 {
 	margin: 1.2rem 0;
-	border-bottom: 4px solid var(--lemon-peel);
 	
 	font-size: 1.2rem;
 	line-height: 0;
@@ -125,7 +130,8 @@ main h2 {
 	margin: 4px;
 	padding: 0;
 
-	background-color: var(--grapefruit);
+	border: 1px solid var(--grapefruit);
+	border-radius: 4px;
 	
 	-webkit-animation: fadein 1s;
 	animation: fadein 1s;
@@ -133,7 +139,7 @@ main h2 {
 
 .project:hover,
 .project:focus {
-	background-color: #744954;
+	background-color: var(--grapefruit);
 }
 
 .project a,
@@ -147,7 +153,7 @@ main h2 {
 	margin: 3px;
 	
 	font-size: 1rem;
-	font-weight: 100;
+	font-weight: bold;
 }
 
 .project .content {
