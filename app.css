@@ -49,9 +49,13 @@ body a {
 	line-height: 100%;
 }
 
+.nav-top a:hover, .nav-side a:hover {
+	filter: brightness(0.9);
+}
+
 header#logo {
 	color: var(--primary-color);
-	position: absolute;
+	position: fixed;
 	top: 16px;
 	left: 16px;
 	font-family: 'Permanent Marker', cursive;
