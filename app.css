@@ -8,10 +8,27 @@ html {
 }
 
 body {
+	clip-path: border-box;
+	
 	color: var(--primary-color);
 	background-color: var(--secondary-color);
 
 	font-family: 'Karla', sans-serif;
+}
+
+body::before {
+	--length: 500vh;
+	content: "";
+	position: fixed;
+	width: 32px;
+	height: var(--length);
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-image: url(brand.png);
+	background-repeat: repeat-y;
+	background-size: contain;
+	transform: translate(20vw, calc(-16px + -0.5 * var(--length))) rotate(-45deg) translate(0, calc(0.5 * var(--length)));
 }
 
 body a {
@@ -78,6 +95,7 @@ main {
 	
 	color: var(--secondary-color);
 	background-color: var(--primary-color);
+	border: 1px solid var(--secondary-color);
 	border-top-right-radius: 4px;
 	line-height: 1.25em;
 }
